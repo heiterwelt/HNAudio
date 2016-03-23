@@ -20,7 +20,7 @@
     UIViewController *vc=[[UIViewController alloc]init];
     UITabBarController *tabvc=[[UITabBarController alloc]init];
     [tabvc setViewControllers:@[vc]];
-    
+    self.window.rootViewController=tabvc;
     [self.window makeKeyAndVisible];
     
     // Override point for customization after application launch.
