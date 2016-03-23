@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C09A3FC41CA29EC500ADB74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FC31CA29EC500ADB74B /* main.m */; };
 		C09A3FC71CA29EC500ADB74B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FC61CA29EC500ADB74B /* AppDelegate.m */; };
-		C09A3FCA1CA29EC500ADB74B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FC91CA29EC500ADB74B /* ViewController.m */; };
-		C09A3FCD1CA29EC500ADB74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A3FCB1CA29EC500ADB74B /* Main.storyboard */; };
 		C09A3FCF1CA29EC500ADB74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A3FCE1CA29EC500ADB74B /* Assets.xcassets */; };
 		C09A3FD21CA29EC500ADB74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A3FD01CA29EC500ADB74B /* LaunchScreen.storyboard */; };
 		C09A3FDD1CA29EC500ADB74B /* HNaudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FDC1CA29EC500ADB74B /* HNaudioTests.m */; };
 		C09A3FE81CA29EC500ADB74B /* HNaudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FE71CA29EC500ADB74B /* HNaudioUITests.m */; };
+		C09A3FF61CA29FBE00ADB74B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09A3FF51CA29FBE00ADB74B /* AVFoundation.framework */; };
+		C09A3FF91CA2A4FC00ADB74B /* HNBaseNavigationcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FF81CA2A4FC00ADB74B /* HNBaseNavigationcontroller.m */; };
+		C09A3FFC1CA2A51F00ADB74B /* HNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FFB1CA2A51F00ADB74B /* HNBaseViewController.m */; };
+		C09A3FFF1CA2A53D00ADB74B /* HNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A3FFE1CA2A53D00ADB74B /* HNMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		C09A3FC31CA29EC500ADB74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C09A3FC51CA29EC500ADB74B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C09A3FC61CA29EC500ADB74B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C09A3FC81CA29EC500ADB74B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C09A3FC91CA29EC500ADB74B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C09A3FCC1CA29EC500ADB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C09A3FCE1CA29EC500ADB74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09A3FD11CA29EC500ADB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09A3FD31CA29EC500ADB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,13 @@
 		C09A3FE31CA29EC500ADB74B /* HNaudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNaudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09A3FE71CA29EC500ADB74B /* HNaudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNaudioUITests.m; sourceTree = "<group>"; };
 		C09A3FE91CA29EC500ADB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09A3FF51CA29FBE00ADB74B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C09A3FF71CA2A4FC00ADB74B /* HNBaseNavigationcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBaseNavigationcontroller.h; sourceTree = "<group>"; };
+		C09A3FF81CA2A4FC00ADB74B /* HNBaseNavigationcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNBaseNavigationcontroller.m; sourceTree = "<group>"; };
+		C09A3FFA1CA2A51F00ADB74B /* HNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNBaseViewController.h; sourceTree = "<group>"; };
+		C09A3FFB1CA2A51F00ADB74B /* HNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNBaseViewController.m; sourceTree = "<group>"; };
+		C09A3FFD1CA2A53D00ADB74B /* HNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNMainViewController.h; sourceTree = "<group>"; };
+		C09A3FFE1CA2A53D00ADB74B /* HNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09A3FF61CA29FBE00ADB74B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 		C09A3FB61CA29EC500ADB74B = {
 			isa = PBXGroup;
 			children = (
+				C09A3FF51CA29FBE00ADB74B /* AVFoundation.framework */,
 				C09A3FC11CA29EC500ADB74B /* HNaudio */,
 				C09A3FDB1CA29EC500ADB74B /* HNaudioTests */,
 				C09A3FE61CA29EC500ADB74B /* HNaudioUITests */,
@@ -103,13 +111,16 @@
 			children = (
 				C09A3FC51CA29EC500ADB74B /* AppDelegate.h */,
 				C09A3FC61CA29EC500ADB74B /* AppDelegate.m */,
-				C09A3FC81CA29EC500ADB74B /* ViewController.h */,
-				C09A3FC91CA29EC500ADB74B /* ViewController.m */,
-				C09A3FCB1CA29EC500ADB74B /* Main.storyboard */,
 				C09A3FCE1CA29EC500ADB74B /* Assets.xcassets */,
 				C09A3FD01CA29EC500ADB74B /* LaunchScreen.storyboard */,
 				C09A3FD31CA29EC500ADB74B /* Info.plist */,
 				C09A3FC21CA29EC500ADB74B /* Supporting Files */,
+				C09A3FF71CA2A4FC00ADB74B /* HNBaseNavigationcontroller.h */,
+				C09A3FF81CA2A4FC00ADB74B /* HNBaseNavigationcontroller.m */,
+				C09A3FFA1CA2A51F00ADB74B /* HNBaseViewController.h */,
+				C09A3FFB1CA2A51F00ADB74B /* HNBaseViewController.m */,
+				C09A3FFD1CA2A53D00ADB74B /* HNMainViewController.h */,
+				C09A3FFE1CA2A53D00ADB74B /* HNMainViewController.m */,
 			);
 			path = HNaudio;
 			sourceTree = "<group>";
@@ -245,7 +256,6 @@
 			files = (
 				C09A3FD21CA29EC500ADB74B /* LaunchScreen.storyboard in Resources */,
 				C09A3FCF1CA29EC500ADB74B /* Assets.xcassets in Resources */,
-				C09A3FCD1CA29EC500ADB74B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09A3FCA1CA29EC500ADB74B /* ViewController.m in Sources */,
+				C09A3FFF1CA2A53D00ADB74B /* HNMainViewController.m in Sources */,
+				C09A3FF91CA2A4FC00ADB74B /* HNBaseNavigationcontroller.m in Sources */,
+				C09A3FFC1CA2A51F00ADB74B /* HNBaseViewController.m in Sources */,
 				C09A3FC71CA29EC500ADB74B /* AppDelegate.m in Sources */,
 				C09A3FC41CA29EC500ADB74B /* main.m in Sources */,
 			);
@@ -308,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C09A3FCB1CA29EC500ADB74B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C09A3FCC1CA29EC500ADB74B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C09A3FD01CA29EC500ADB74B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +502,7 @@
 				C09A3FEE1CA29EC500ADB74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09A3FEF1CA29EC500ADB74B /* Build configuration list for PBXNativeTarget "HNaudioTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				C09A3FF11CA29EC500ADB74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09A3FF21CA29EC500ADB74B /* Build configuration list for PBXNativeTarget "HNaudioUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				C09A3FF41CA29EC500ADB74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
